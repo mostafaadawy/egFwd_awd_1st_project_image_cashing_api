@@ -49,7 +49,7 @@ actually resiziing the image is not the main issue but the main issue was to mak
 ## How to install
 clone our repo
 ```sh
-git clone 
+git clone https://github.com/mostafaadawy/egFwd_awd_1st_project_image_cashing_api.git
 ```
 then install node packages in the json file
 ```sh
@@ -99,7 +99,7 @@ where the required packages as follows:
     "clean": "rimraf prod/",
     "prod": "npx tsc",
     "reprod": "npm run clean && npx tsc",
-    "reproduce-run": "npm run reproduce && nodemon prod/index.js",
+    "reprod-run": "npm run reproduce && nodemon prod/index.js",
     "prettier": "prettier --write src/**/*.{ts,tsx,js,jsx}",
     "lint": "eslint . --ext .ts"
   }
@@ -247,7 +247,7 @@ Udacity Rubric for this project can be accessed [here](https://review.udacity.co
 * https://github.com/mostafaadawy
 * https://web.facebook.com/mostafa.adawy.96/
 * mailto:mostafa_adawy@ymail.com
-* https://www.linkedin.com/in/%E2%80%ABmostafa-adawy%E2%80%AC-%E2%80%AB-11b937125/
+* www.linkedin.com/in/mostafaamsadawy
 
 ## Refrenceces
 * [Garbage Collector](https://javascript.info/garbage-collection)

@@ -1,4 +1,6 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import supertest from "supertest"
+
 import app from "../../index"
 
 const testRequest = supertest(app)
