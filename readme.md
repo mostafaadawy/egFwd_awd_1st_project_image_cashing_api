@@ -241,8 +241,12 @@ export default routes
 Udacity Rubric for this project can be accessed [here](https://review.udacity.com/#!/rubrics/3005/view).
 
 ## Udacity Review Project Modification Acceptance
-
-
+[udacity revision link](https://review.udacity.com/#!/reviews/3337648), generally good feedback but required three main modifications according to rubric
+* supertest, jasmine and reporter must be a part of devDependencies.
+* Error messages are provided for different scenarios like invalid input for filename and missing height and width. But the application throws an unhandled rejection for height and width values of 0.
+* Endpoint testing covers multiple scenarios but you need to test image processing functions from imageHelperFunction.ts as well.
+i solved all the above issues
+and for revision you can see the commit files
 ## Contact
 * https://github.com/mostafaadawy
 * https://web.facebook.com/mostafa.adawy.96/
